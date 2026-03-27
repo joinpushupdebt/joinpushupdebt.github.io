@@ -1,0 +1,15 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["58HN73S9X2.com.dkob.pushups"],
+        "components": [
+          {
+            "/": "/invite*",
+            "comment": "RepLock referral invite links"
+          }
+        ]
+      }
+    ]
+  }
+}

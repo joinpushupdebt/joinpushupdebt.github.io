@@ -1,0 +1,3 @@
+# Expose .well-known/ directory (hidden dirs are ignored by Jekyll by default)
+include:
+  - .well-known
