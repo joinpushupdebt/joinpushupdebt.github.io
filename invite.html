@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>You've been invited to RepLock</title>
-  <meta name="description" content="Your friend invited you to RepLock — the app that locks your phone until you do your push-ups." />
+  <title>You've been invited to Pushup Debt</title>
+  <meta name="description" content="Your friend invited you to Pushup Debt — the app that locks your phone until you do your push-ups." />
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap');
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -50,7 +50,7 @@
     window.addEventListener('DOMContentLoaded', function () {
       var ref = new URLSearchParams(window.location.search).get('ref');
       if (ref) {
-        window.location.href = 'replock://invite?ref=' + encodeURIComponent(ref);
+        window.location.href = 'pushupdebt://invite?ref=' + encodeURIComponent(ref);
       }
     });
   </script>
@@ -58,10 +58,10 @@
 <body>
   <div class="card">
     <span class="icon">💪</span>
-    <h1>Join <span>RepLock</span></h1>
+    <h1>Join <span>Pushup Debt</span></h1>
     <p>
       Your friend challenged you.<br />
-      RepLock locks your phone until you complete your push-ups.<br />
+      Pushup Debt locks your phone until you complete your push-ups.<br />
       Download the app and start your streak.
     </p>
     <a class="btn" id="appstore-link"
