@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Support & Contact — Pushup Debt</title>
+  <meta name="description" content="Support and Contact Information for Pushup Debt." />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap');
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+      background: #0f0f0f; color: #fff;
+      min-height: 100vh; display: flex;
+      flex-direction: column;
+      align-items: center; 
+      padding: 48px 24px;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 600px;
+      width: 100%;
+    }
+    h1 { font-size: 32px; font-weight: 900; letter-spacing: -1px; margin-bottom: 24px; }
+    h2 { font-size: 24px; font-weight: 700; margin-top: 32px; margin-bottom: 16px; color: #4ADE80; }
+    p { color: #8E8E93; margin-bottom: 16px; font-size: 16px; }
+    a { color: #4ADE80; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .card {
+      background: #1c1c1e;
+      border-radius: 16px;
+      padding: 32px;
+      margin-top: 24px;
+      text-align: center;
+    }
+    .card a.btn {
+      display: inline-block; margin-top: 24px;
+      background: #4ADE80; color: #000; font-weight: 700;
+      padding: 16px 32px; border-radius: 14px;
+      text-decoration: none; font-size: 16px;
+    }
+    .back-nav {
+      margin-bottom: 32px;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="back-nav">
+      <a href="index.html">← Back to Home</a>
+    </div>
+    
+    <h1>Support & Contact</h1>
+    <p>Need help with Pushup Debt? Have feedback or bug reports? We're here to help.</p>
+
+    <div class="card">
+      <div style="font-size:48px;margin-bottom:16px">💌</div>
+      <h2>Email Support</h2>
+      <p>Send us an email and we'll get back to you as soon as possible.</p>
+      <a class="btn" href="mailto:support@pushupdebt.com" id="email-link">Email Us</a>
+    </div>
+    
+    <div class="card">
+      <div style="font-size:48px;margin-bottom:16px">💬</div>
+      <h2>Community Discord</h2>
+      <p>Join our Discord server to connect with other users, ask questions, and share your feedback directly with the developer.</p>
+      <a class="btn" href="https://discord.gg/eM5dgnk9" target="_blank" rel="noopener noreferrer">Join Discord</a>
+    </div>
+
+    <p style="text-align:center; margin-top: 48px; font-size: 14px;">
+      <b>Business Inquiries:</b> If you have a business, partnership, or press inquiry, please reach out via email.
+    </p>
+  </div>
+  
+  <script>
+    // Simple script to allow easy update of the support email
+    // Please update the email address here if needed
+    const SUPPORT_EMAIL = 'support@pushupdebt.com';
+    document.getElementById('email-link').href = `mailto:${SUPPORT_EMAIL}`;
+  </script>
+</body>
+</html>
